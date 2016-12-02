@@ -44,3 +44,6 @@ puts caesar_cipher("JoKeR").join("")
 
 #test special chars
 puts caesar_cipher("!!!!hi!!!!").join("")
+
+#test rollback
+puts caesar_cipher("Zx Xx yY", 3).join("")
